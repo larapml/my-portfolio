@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lara Lopes | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .greeting {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .cta {
+      font-size: 1.2rem;
+      color: black;
+      text-decoration: none;
+      border: 2px solid black;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+
+    .cta:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hi there! Welcome to my portfolio</h1>
-    <p>Click the link below to see what I've been up to</p>
-    <a href="Portfolio.pdf" target="_blank">View PDF</a>
+  <div class="container">
+    <p class="greeting">Hi there! Welcome to my portfolio :) </p>
+    <a href="Portfolio.pdf" class="cta" target="_blank">Click here to see what I've been up to!</a>
+  </div>
 </body>
 </html>
