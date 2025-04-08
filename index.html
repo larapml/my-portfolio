@@ -11,7 +11,7 @@
       box-sizing: border-box;
     }
 
- html, body {
+    html, body {
       height: 100%;
     }
 
@@ -21,50 +21,52 @@
       color: black;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
       text-align: center;
-      padding: 40px 20px;
     }
 
     .container {
-      text-align: center;
-      width: 100%; /* Make sure it takes full width */
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
     }
 
     .greeting {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       margin-bottom: 30px;
     }
 
     .buttons {
       display: flex;
-      flex-direction: column; /* Stack the buttons vertically */
+      flex-direction: column;
+      gap: 15px;
       align-items: center;
-      gap: 12px; /* Space between buttons */
     }
 
     .cta {
       font-size: 1.2rem;
       color: black;
       text-decoration: none;
-      border: 2px solid gray;
-      padding: 12px 30px;
-      border-radius: 35px;
+      border: 2px solid black;
+      padding: 8px 30px;
+      border-radius: 20px;
       transition: background-color 0.3s ease;
       display: inline-block;
     }
 
     .cta:hover {
-      background-color: gray;
+      background-color: black;
       color: white;
     }
 
     footer {
       font-size: 0.8rem;
       color: #555;
-      margin-top: 40px;
+      padding: 20px;
     }
+   
     
   </style>
 </head>
