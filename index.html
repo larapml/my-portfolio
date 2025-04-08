@@ -45,38 +45,22 @@
   align-items: center;
 }
 
-.cta {
-  font-size: 1.2rem;
-  padding: 8px 30px;
-  border-radius: 999px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  display: inline-block;
-  text-decoration: none;
-}
+    .cta {
+      font-size: 1.2rem;
+      color: black;
+      text-decoration: none;
+      border: 2px solid gray;
+      padding: 12px 30px;
+      border-radius: 35px;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
 
-/* Primary: Portfolio */
-.cta.primary {
-  background-color: black;
-  color: black;
-  border: 2px solid transparent;
-}
+    .cta:hover {
+      background-color: gray;
+      color: white;
+    }
 
-.cta.primary:hover {
-  background-color: black;
-  color: white;
-}
-
-/* Secondary: CV */
-.cta.secondary {
-  background-color: white;
-  color: black;
-  border: 2px black;
-}
-
-.cta.secondary:hover {
-  background-color: black;
-  color: white;
-}
 
     footer {
       font-size: 0.8rem;
@@ -91,8 +75,8 @@
   <div class="container">
     <p class="greeting">Hi! Welcome to my portfolio :) </p>
     <div class="buttons">
-      <a href="Portfolio_LaraLopes_2025.pdf" class="cta primary" target="_blank">UX/UI Portfolio</a>
-      <a href="CV_LaraLopes.pdf" class="cta secondary" target="_blank">View my CV</a>
+      <a href="Portfolio_LaraLopes_2025.pdf" class="cta" target="_blank">UX/UI Portfolio</a>
+      <a href="CV_LaraLopes.pdf" class="cta" target="_blank">View my CV</a>
     </div>
   </div>
   <footer>
